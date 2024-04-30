@@ -15,7 +15,7 @@ from datetime import datetime
 
 import pkg_resources
 from flask import current_app, render_template
-from flask_babelex import Domain
+from flask_babel import Domain
 from flask_login import UserMixin as BaseUserMixin
 from flask_login import AnonymousUserMixin, LoginManager, current_user
 from flask_principal import Identity, Principal, RoleNeed, UserNeed, \

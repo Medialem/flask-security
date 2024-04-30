@@ -26,6 +26,7 @@ tests_require = [
     'pytest-translations>=1.0.4',
     'pytest>=3.0.5',
     'sqlalchemy>=0.8.0',
+    'speaklater>=1.2',
 ]
 
 extras_require = {
@@ -51,9 +52,10 @@ install_requires = [
     'Flask-Mail>=0.7.3',
     'Flask-Principal>=0.3.3',
     'Flask-WTF>=0.13.1',
-    'Flask-BabelEx>=0.9.3',
+    'Flask-Babel==2.0.0',
     'itsdangerous>=0.21',
     'passlib>=1.7',
+    'speaklater>=1.2',
 ]
 
 packages = find_packages()
