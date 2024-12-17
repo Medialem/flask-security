@@ -394,7 +394,7 @@ def send_mail(subject, recipient, template, **context):
         msg.html = render_template('%s/%s.html' % ctx, **context)
 
     if _security._send_mail_task:
-        _security._send_mail_task(msg)
+        _security._send_mail_task(msg, **context)
         return
 
     mail = current_app.extensions.get('mail')
